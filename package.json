@@ -1,0 +1,20 @@
+{
+  "name": "accommodation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "csv-write-stream": "^2.0.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "shelljs": "^0.8.4"
+  }
+}
