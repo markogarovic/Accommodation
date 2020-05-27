@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
 
@@ -240,7 +241,7 @@ var file = scrapRealitica()
 
 
 
-app.listen(3000, (err, data) => {
+app.listen(PORT, (err, data) => {
   if (!err) console.log("Connected")
 })
 
